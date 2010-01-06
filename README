@@ -1,17 +1,10 @@
-This directory contains a variety of Matlab functions that I've found
-to be useful for my work at LabROSA.  The portions written by me are
-distributed under the terms of the GNU General Public License.  See
-the file COPYING for details.
+This package contains a set of standard functional programming tools
+that can be used on cell arrays.  It contains implementations of map,
+reduce, filter (called cfilter so as not to conflict with the filter()
+function in the Signal Processing Toolbox), and lazymap which has the
+same semantics as map but uses lazy evaluation.
 
-Contents:
-hmm        - functions for evaluating hidden Markov models and Gaussian
-             mixture models
-matlab_htk - functions that interface with the HTK Speech Recognition
-             Toolkit (http://htk.eng.cam.ac.uk/) for training
-             HMMs, GMMs and simple speech recognizers
-source_sep - implementations of standard algorithms for source
-             separation
-celltools  - useful functional programming style functions for cell arrays
-plottools  - Wrappers around basic plotting functions and code for some
-             handy new GUI controls.
+The portions written by me are distributed under the terms of the GNU
+General Public License.  See the file COPYING for details.
 
+2007-11-06 Ron Weiss <ronw@ee.columbia.edu>
